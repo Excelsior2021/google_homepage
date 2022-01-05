@@ -22,7 +22,6 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  /* border: 1px solid black; */
 }
 
 /* Header */
@@ -36,7 +35,6 @@ body {
   width:100vw;
   height: var(--header-height);
   font-size: 14px;
-  /* border: 1px black solid; */
 }
 
 .header-left {
@@ -45,7 +43,6 @@ body {
   align-items: center;
   width: 11vw;
   height: var(--header-height);
-  /* border: 1px black solid; */
 }
 
 .header-right {
