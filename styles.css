@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 :root {
   --header-height: 10vh;
@@ -171,7 +171,7 @@ button#Sign-in:hover {
 
 #search-bar {
   display: inline-block;
-  width: 540px;
+  width: 480px;
   height: 42px;
   margin: 10px;
   border-radius: 25px;
@@ -231,6 +231,10 @@ input:hover {
   width: 100vw;
   height: 50%;
   border-bottom: 1px lightgrey solid;
+}
+
+.footers a, p {
+  color: rgb(116, 116, 116);
 }
 
 .footer1 p {
