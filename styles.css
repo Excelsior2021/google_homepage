@@ -41,23 +41,23 @@ body {
   margin: var(--header-elements-margin);
 }
 
-.header-left {
+.header--left {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.header-right {
+.header--right {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
-.header-right > span {
+.header--right > span {
   margin-right: 1em;
 }
 
-.header-right > span:hover {
+.header--right > span:hover {
   cursor: pointer;
   background-color: #f0f0f0;
   border-radius: 50%;
@@ -78,17 +78,13 @@ body {
   border: 0;
 }
 
-button#Sign-in:hover {
+#Sign-in:hover {
   opacity: 0.85;
   cursor: pointer;
   box-shadow: 0.5pt 0.5pt 2pt 0.5pt #D3D3D3
 }
 
 /* Logo & Form Section */
-
-.main {
-  grid-area: main;
-}
 
 .logo {
   grid-area: logo;
@@ -208,20 +204,20 @@ button#Sign-in:hover {
   padding: 0 1em;
 }
 
-.footer2-left{
+.footer2--left{
   flex: 1;
   display: flex;
   justify-content: flex-start;
 }
 
-.footer2-center{
+.footer2--center{
   flex: 1;
   display: flex;
   justify-content: center;
   justify-items: center;
 }
 
-.footer2-right{
+.footer2--right{
   flex: 1;
   display: flex;
   justify-content: flex-end;
@@ -249,9 +245,16 @@ a:hover {
 #leaf {
   height: 14px;
 }
+
 @media (max-height: 660px) {
   .container {
     grid-template-rows: 60px 96px 160px auto 95.67px;
+  }
+}
+
+@media (min-height: 850px) {
+  .container {
+    grid-template-rows: 60px 290px 160px auto 95.67px;
   }
 }
 
@@ -269,15 +272,15 @@ a:hover {
 
   }
 
-  .footer2-left {
+  .footer2--left {
     grid-area: footer2-left;
   }
 
-  .footer2-center {
+  .footer2--center {
     grid-area: footer2-center;
   }
 
-  .footer2-right {
+  .footer2--right {
     grid-area: footer2-right;
   }
 }
@@ -300,7 +303,7 @@ a:hover {
     justify-content: space-around;
   }
 
-  .footer2-center, .footer2-right {
+  .footer2--center, .footer2-right {
     justify-content: center;
   }
 }
