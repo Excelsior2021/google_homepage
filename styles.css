@@ -146,6 +146,7 @@ body {
   outline: none;
   width: 100%;
   margin-left: 6px;
+  background-color: transparent;
 }
 
 .mic-div {
