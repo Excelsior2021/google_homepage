@@ -1,4 +1,4 @@
-# Google_Homepage
+# Google Homepage
 
 A clone of Google's Homepage using HTML and CSS. With attention to detail and responive design.
 
